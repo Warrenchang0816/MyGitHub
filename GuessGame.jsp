@@ -31,7 +31,7 @@
 					.parseInt(request.getParameter("guessField"));
 			int guessCount = Integer.parseInt(request.getParameter("gc"));
 
-			int answer = 6987;
+			int answer = 6969;
 
 			if (guessNumber > answer)
 			{
