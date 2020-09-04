@@ -30,7 +30,9 @@
 			int guessNumber = Integer
 					.parseInt(request.getParameter("guessField"));
 			int guessCount = Integer.parseInt(request.getParameter("gc"));
-			int answer = 6969;
+
+			int answer = 6987;
+
 			if (guessNumber > answer)
 			{
 				higherFlag = true;
